@@ -1,0 +1,19 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.mazeproject;
+
+public class Tile {
+     int terrain;
+     int elevation;
+     int obstacleDistance;
+      boolean isObstacle;
+      int label;
+      
+      public Tile(int terrain, int elevation, boolean isObstacle) {
+        this.terrain = terrain;
+        this.elevation = elevation;
+        this.isObstacle = isObstacle;
+    }
+}
