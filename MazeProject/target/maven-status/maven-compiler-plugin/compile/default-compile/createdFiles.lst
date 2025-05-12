@@ -1,6 +1,12 @@
+com\mycompany\mazeproject\MainMazeGUI.class
 com\mycompany\mazeproject\MazeProject.class
-com\mycompany\mazeproject\MazePanel.class
-com\mycompany\mazeproject\TileData.class
+com\mycompany\mazeproject\MazePanel$1.class
+com\mycompany\mazeproject\MainMazeGUI$1.class
 com\mycompany\mazeproject\MazeGenerator.class
 com\mycompany\mazeproject\Tile.class
 com\mycompany\mazeproject\Perceptron.class
+com\mycompany\mazeproject\MainMazeGUI$2.class
+com\mycompany\mazeproject\MazePanel.class
+com\mycompany\mazeproject\Node.class
+com\mycompany\mazeproject\AStar.class
+com\mycompany\mazeproject\TileData.class

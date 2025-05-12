@@ -8,8 +8,11 @@ public class Tile {
      int terrain;
      int elevation;
      int obstacleDistance;
-      boolean isObstacle;
-      int label;
+     boolean isObstacle;
+     int label;
+     public boolean isStart = false;
+     public boolean isEnd = false;
+     public boolean isPath;
       
       public Tile(int terrain, int elevation, boolean isObstacle) {
         this.terrain = terrain;

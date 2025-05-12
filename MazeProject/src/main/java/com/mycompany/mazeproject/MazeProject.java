@@ -4,14 +4,21 @@
 
 package com.mycompany.mazeproject;
 import java.util.*;
+import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
 
 
 public class MazeProject {
 
     public static void main(String[] args) {
+         MainMazeGUI gg = new MainMazeGUI();
+         gg.setVisible(true);
+    }
+    }
               
-                List<TileData> dataset = new ArrayList<>();
+           /*     List<TileData> dataset = new ArrayList<>();
            dataset.add(new TileData(0, 1, 10, 1));
            dataset.add(new TileData(1, 9, 8, 0));
            dataset.add(new TileData(0, 1, 4, 1));
@@ -132,8 +139,11 @@ public class MazeProject {
         // int[] testTile = {0, 3, 6};
          // int prediction = p.predict(testTile); 
         // System.out.println("the prediction for test tile: " + (prediction == 1 ? "safe" : "unsafe"));
-           JFrame frame = new JFrame("Maze Visualization");
+        
      
+    
+        
+           JFrame frame = new JFrame("Maze");
         Tile[][] maze = MazeGenerator.generateMaze(11,11, p);
 
         MazePanel mazePanel = new MazePanel(maze);
@@ -146,6 +156,6 @@ public class MazeProject {
                 
             
            
-           
-    }
+       */    
+   
 
